@@ -1,0 +1,12 @@
+# Tested core environment: Python 3.10. Install an appropriate PyTorch build.
+torch==2.5.1
+numpy==2.2.5
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+openpyxl==3.1.5
+joblib==1.5.3
+einops==0.8.1
+PyYAML==6.0.3
+tqdm==4.68.2

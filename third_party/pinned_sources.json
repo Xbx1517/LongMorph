@@ -1,0 +1,107 @@
+{
+  "schema": "LONGMORPH_OPTIONAL_UPSTREAM_PINS_V1",
+  "dependencies": [
+    {
+      "name": "timegan",
+      "display_name": "TimeGAN",
+      "repository": "https://github.com/jsyoon0823/TimeGAN.git",
+      "commit": "8f6181cb9b9d2fa0c930cd902411d9ac8a308e07",
+      "license": "Apache-2.0",
+      "license_path": "license",
+      "license_sha256": "b6e330831660dd31c914665c255c48651b9165aa1cc44ed4c6be2df83e2a34e4",
+      "automated_source_retrieval": true,
+      "required_source_paths": [
+        "timegan.py",
+        "utils.py"
+      ],
+      "bundled_notice": "licenses/timegan.LICENSE"
+    },
+    {
+      "name": "timevae",
+      "display_name": "TimeVAE",
+      "repository": "https://github.com/abudesai/timeVAE.git",
+      "commit": "9914576bd44a6facbc94a594a82dd14724969a50",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "eff1f92c91c14170a41eb086b6d9bd570325d82f7c1a89cd18d0bdaf44b86921",
+      "automated_source_retrieval": true,
+      "required_source_paths": [
+        "src/vae/timevae.py"
+      ],
+      "bundled_notice": "licenses/timevae.LICENSE"
+    },
+    {
+      "name": "diffusion_ts",
+      "display_name": "Diffusion-TS",
+      "repository": "https://github.com/Y-debug-sys/Diffusion-TS.git",
+      "commit": "566307e6cf2d8095e58de4c6e3a6ae965b69b5b5",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "d656520ad0e4590175fcaf57bcdf648a2eb74c4c5500005e4bf86eaafc31b3c5",
+      "automated_source_retrieval": true,
+      "required_source_paths": [
+        "Models/interpretable_diffusion/gaussian_diffusion.py",
+        "Models/interpretable_diffusion/transformer.py"
+      ],
+      "bundled_notice": "licenses/diffusion_ts.LICENSE"
+    },
+    {
+      "name": "timevqvae",
+      "display_name": "TimeVQVAE",
+      "repository": "https://github.com/ML4ITS/TimeVQVAE.git",
+      "commit": "39f98e99cb103ea00694d01c65fd6e7a49416d24",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "f1063c1f1a9597665c56800bee19242b16b5b4e17425e1df1a6a3c7589306a12",
+      "automated_source_retrieval": true,
+      "required_source_paths": [
+        "src/timevqvae/vqvae.py",
+        "src/timevqvae/maskgit.py"
+      ],
+      "bundled_notice": "licenses/timevqvae.LICENSE"
+    },
+    {
+      "name": "tts_gan",
+      "display_name": "TTS-GAN",
+      "repository": "https://github.com/imics-lab/tts-gan.git",
+      "commit": "3f8b36ab84d1c00d48021d6e7c5dbd461686844e",
+      "license": "Apache-2.0",
+      "license_path": "LICENSE",
+      "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "automated_source_retrieval": true,
+      "required_source_paths": [
+        "GANModels.py"
+      ],
+      "bundled_notice": "licenses/tts_gan.LICENSE"
+    },
+    {
+      "name": "aec_gan",
+      "display_name": "AEC-GAN",
+      "repository": "https://github.com/HBhswl/AEC-GAN.git",
+      "commit": "e47b1c2fc6dbcff7a2505591c4fb25203f3c35a5",
+      "license": "UNKNOWN",
+      "license_path": null,
+      "license_sha256": null,
+      "automated_source_retrieval": false,
+      "required_source_paths": [
+        "lib/algos/asganadv.py",
+        "lib/algos/base.py"
+      ],
+      "limitation": "License not established for this dependency; automated retrieval is disabled."
+    },
+    {
+      "name": "fourier_flow",
+      "display_name": "Fourier Flows",
+      "repository": "https://github.com/ahmedmalaa/Fourier-flows.git",
+      "commit": "ffc4d77fb69ebe5d8eefc03b7cc8ca8182576606",
+      "license": "UNKNOWN",
+      "license_path": null,
+      "license_sha256": null,
+      "automated_source_retrieval": false,
+      "required_source_paths": [
+        "SequentialFlows.py"
+      ],
+      "limitation": "License not established for this dependency; automated retrieval is disabled."
+    }
+  ]
+}

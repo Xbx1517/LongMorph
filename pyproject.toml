@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "longmorph"
+version = "0.1.0"
+description = "Cycle-based PPG generation with a dual-stream codec and guarded selection"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+llm = ["transformers==5.12.0", "accelerate==1.14.0", "safetensors==0.8.0"]
+
+[project.scripts]
+longmorph = "longmorph.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["longmorph*"]
+exclude = ["tests*", "third_party*", "longmorph.baselines.vendor*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
